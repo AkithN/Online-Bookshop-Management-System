@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300;400;500;600;700&family=Hanken+Grotesk:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Hanken Grotesk;
+}
+
+:root{
+  --primary-color:#fb995d;
+  --primary-color-bright: #fa7727;
+  --white-color:#fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: Chivo Mono;
+}
+
+h1{
+  font-size: 2.5rem;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+}
+
+.flex{
+  display: flex;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.text-primary{
+  color:var(--primary-color);
+}
+
+span{
+  font-family: Chivo Mono;
+}
+
+.button-primary{
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: var(--primary-color-bright);
+  color: #fff;
+  text-decoration: none;
+  margin-top: 2rem;
+  box-shadow: 2px 2px 5px #ddd;
+  transition: 0.2s ease-in;
+  border: none;
+  font-family: Chivo Mono;
+  font-size: 1rem;
+}

@@ -1,0 +1,43 @@
+.navbar-container{
+    position:absolute;
+    width: 100%;
+    top: 0;
+    z-index:1;
+    padding: 1rem 0;
+}
+.logo{
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: Chivo Mono;
+    font-weight: 700;
+}
+
+.logo span{
+    font-family: Chivo Mono;
+}
+
+.nav-links{
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.1 rem;
+    padding-left: 20px;
+    transition:0.2s ease-in;
+
+}
+
+.nav-links:hover{
+    color: var(--primary-color);
+}
+
+.background-dark{
+    background-color: #333;
+}
+
+.background-transparent{
+    background-color: transparent;
+}
+
+.relative{
+    position: relative !important;
+}

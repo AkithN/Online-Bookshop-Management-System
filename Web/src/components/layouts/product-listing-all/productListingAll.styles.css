@@ -1,0 +1,16 @@
+.product-listing-all-container{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5rem;
+} */
+
+
+.grid-item{
+    display: flex;
+    justify-content: center;
+}
